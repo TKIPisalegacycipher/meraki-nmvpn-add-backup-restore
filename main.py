@@ -19,7 +19,7 @@ while not done:
 
     print("Please select from one of the following options:")
     print("1. Summarize the current list of peers.")
-    print("2. Back up the current list of peers to a file.")
+    print("2. Backup the current list of peers to a file.")
     print("3. Restore a backup file to the current config, overwriting everything.")
     print("4. Add one or more peers to the current config.")
     print("5. Remove all peers.")
