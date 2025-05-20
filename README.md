@@ -57,7 +57,7 @@ If you'd like to remove all peers from the cloud, this will do so. Ensure you ha
 
 ## Setting your API key as a user environment variable
 
-These instructions are provided as a courtesy.
+Please consult your local IT administrator if you have any issues following these instructions.
 
 ### Windows 11
 1. **Open the Environment Variables Settings**:
