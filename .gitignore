@@ -1,0 +1,15 @@
+*.pyc
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/meraki-nmvpn-add-backup-restore.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/ruff.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/meraki-nmvpn-add-backup-restore.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/ruff.xml
+.idea/vcs.xml

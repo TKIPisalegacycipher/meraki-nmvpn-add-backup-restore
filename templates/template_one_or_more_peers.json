@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Peer Name",
+    "publicIp": "123.123.123.1",
+    "remoteId": "miles@meraki.com",
+    "localId": "myMXId@meraki.com",
+    "secret": "secret",
+    "privateSubnets": [
+      "192.168.1.0/24",
+      "192.168.128.0/24"
+    ],
+    "ipsecPolicies": {
+      "ikeCipherAlgo": [
+        "tripledes"
+      ],
+      "ikeAuthAlgo": [
+        "sha1"
+      ],
+      "ikePrfAlgo": [
+        "prfsha1"
+      ],
+      "ikeDiffieHellmanGroup": [
+        "group2"
+      ],
+      "ikeLifetime": 28800,
+      "childCipherAlgo": [
+        "aes128"
+      ],
+      "childAuthAlgo": [
+        "sha1"
+      ],
+      "childPfsGroup": [
+        "disabled"
+      ],
+      "childLifetime": 28800
+    },
+    "ipsecPoliciesPreset": "custom",
+    "ikeVersion": "1",
+    "networkTags": [
+      "all"
+    ]
+  }
+]
