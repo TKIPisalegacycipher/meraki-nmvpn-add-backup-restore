@@ -6,12 +6,30 @@ _A straightforward way to add, backup, and restore non-Meraki VPN peers._
 
 ### Setup
 
+#### Create an environment variable for your API key
+
 First, if you don't already have one, [create your Meraki Dashboard API
 key](https://documentation.meraki.com/General_Administration/Other_Topics/Cisco_Meraki_Dashboard_API). 
 
 Then, add your API key to a user environment variable called `MERAKI_DASHBOARD_API_KEY` and reboot your computer. If
-you are not sure how to do this, please see the guide at the bottom of this README. Once rebooted, continue with the 
-**Operation** section.
+you are not sure how to do this, please see the guide at the bottom of this README. 
+
+#### Install Python 
+
+Install Python on your machine (3.11 or later). Be sure to select the option to add Python to PATH, if presented with one.
+
+#### (Optionally:) Reboot your computer
+
+In some cases, it helps to reboot your computer so the PATH variable and API key environment variable take full effect.
+
+#### Install the project requirements
+
+Then run the following commands to install the project requirements:
+
+```aiignore
+pip install pip-tools
+pip-sync uv.lock
+```
 
 ### Operation
 
